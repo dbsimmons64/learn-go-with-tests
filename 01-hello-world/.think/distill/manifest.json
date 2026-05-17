@@ -1,0 +1,28 @@
+{
+  "rootArg": ".",
+  "rootDir": "/Users/davidsimmons/Languages/go/books/learn-go-with-tests/01-hello-world",
+  "files": [
+    "AGENTS.md.md",
+    "hello.go",
+    "hello_test.go"
+  ],
+  "levels": {
+    "L1": {
+      "total": 3,
+      "done": 3,
+      "ratio": 50
+    },
+    "L2": {
+      "total": 3,
+      "done": 3,
+      "ratio": 50
+    },
+    "L3": {
+      "total": 3,
+      "done": 3,
+      "ratio": 50
+    }
+  },
+  "startedAt": "2026-05-12T09:09:29.358Z",
+  "updatedAt": "2026-05-12T09:16:46.944Z"
+}

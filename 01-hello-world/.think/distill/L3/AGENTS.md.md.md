@@ -1,0 +1,7 @@
+<!-- distilled: 2026-05-12T09:16:46.943Z | source: AGENTS.md.md -->
+
+<!-- distilled: 2026-05-12T09:15:59.898Z | source: AGENTS.md.md -->
+
+<!-- distilled: 2026-05-12T09:09:52.451Z | source: AGENTS.md.md -->
+
+This document defines the operational rules and workflow constraints for Pi, a coding agent designed to enforce concise, file-based reasoning during development tasks. Key exports: none; it is a non-executable metadata specification outlining agent behavior. It is used by the Pi system to structure its interactions, importing dependencies on external documentation (like the main README) and project-specific state files within a `.think/` directory to manage task planning, step logs, and session lifecycles. Its core logic mandates that all reasoning occurs through explicit filesystem reads/writes, requiring the agent to initialize and update `_state.md` at every turn while avoiding full codebase context loading. Ultimately, it ensures traceability and prevents context loss by strictly separating task definition from code analysis through structured file operations.
