@@ -9,6 +9,9 @@ type result struct {
 
 func CheckWebsites(wc WebsiteChecker, urls []string) map[string]bool {
 	results := make(map[string]bool)
+
+	// A channel is a "typed pipe" - One goroutine sends values into a channel,
+	// another receives them.
 	resultChannel := make(chan result)
 
 	for _, url := range urls {
@@ -22,5 +25,6 @@ func CheckWebsites(wc WebsiteChecker, urls []string) map[string]bool {
 		results[r.string] = r.bool
 	}
 
+	// blah
 	return results
 }
